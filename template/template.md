@@ -32,7 +32,8 @@ body{font-size:15px;color:#333;background:#fff;font-family:Helvetica, Arial, "Pi
 </h3>
 
 
-## 标题一
+## 1. 第一题章
+### 1.2 第一章第一节
 这是一段代码示例：
 ```C++
 // The sample code
@@ -45,6 +46,9 @@ int main()
 }
 ```
 
-## 标题二
+## 2. 第二节
+### 2.2 第二章第一节
 这是一段数学公式：
 $$f(x)=ax^{2}+bx+c\\\int_{b}^{a}f(x)dx=g(x)$$
+
+### 2.2 第二章第二节
