@@ -34,7 +34,7 @@ body{font-size:15px;color:#333;background:#fff;font-family:Helvetica, Arial, "Pi
 ## 值语义和引用语义
 在介绍深拷贝、浅拷贝以前，需要先了解 C++ 中的值语义（Value Semantics）和引用语义（Reference Semantics），先来说值语义，假设有两个对象 a，b，若 a = b 以后，b 的改变不会影响到 a，则说明这两个变量具有值语义。
 
-其实，所有的原始变量（Primitive Variable）都具有值语义（原始变量包括即类似于 int 这种数据），又称为 POD（Plain Old Data），对于一个具有值语义的原始变量，变量赋值可以转换成内存的原内存拷贝（Bitwise Copy），所谓原拷贝，即为类似 memcpy 这样的拷贝，原始对象不需要调用 memcpy，只需要使用等号就可以复制内存，同时注意，STL 中大部分的模板类都是由值语义的（如 std::string, std::vector, std::function 和 std::thread 除外）。
+其实，所有的原始变量（Primitive Variable）都具有值语义（原始变量包括即类似于 int 这种数据），又称为 POD（Plain Old Data），对于一个具有值语义的原始变量，变量赋值可以转换成内存的原内存拷贝（Bitwise Copy），所谓原内存拷贝，即为类似 memcpy 这样的拷贝，原始对象不需要调用 memcpy，只需要使用等号就可以复制内存，同时注意，STL 中大部分的模板类都是由值语义的（如 std::string, std::vector, std::function 和 std::thread 除外）。
 
 然而引用语义则变量保存的就是对值的引用，形如 a = b 的赋值不会拷贝一份新的副本，两个变量值占有一份内存空间，此时可以理解为这块内存空间的别名，或者是 a 的别名，最典型的例子就是指针。
 
