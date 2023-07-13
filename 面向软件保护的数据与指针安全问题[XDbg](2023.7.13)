@@ -1,0 +1,151 @@
+<style type="text/css">
+body{font-size:15px;color:#333;background:#fff;font-family:Helvetica, Arial, "PingFang SC", "Microsoft YaHei", "WenQuanYi Micro Hei", "tohoma,sans-serif";margin:0;padding:10%}h1{font-size:2.2em;font-weight:700;line-height:1.1;padding-top:16px;margin-bottom:4px}h2, h3, h4, h5, h6{line-height:1.5em;margin-top:2.2em;margin-bottom:4px}h2{color:#ffffff !important;background-color:#ff9b98;border-left:12px solid #FF7E79;padding :1px 1px 1px 20px}h3{font-weight:700;font-size:1.2em;line-height:1.4;margin:10px 0 5px;padding-top:10px}h4{font-weight:700;text-transform:uppercase;font-size:1.1em;line-height:1.4;margin:10px 0 5px;padding-top:10px}h5, h6{font-size:.9em}h5{font-weight:bold;text-transform:uppercase}h6{font-weight:normal;color:#AAA}img{width:100%;border-radius:5px;display:block;margin-bottom:15px;height:auto}dl, ol, ul{margin-top:12px;margin-bottom:20px;padding-left:5%;line-height:1.8}p{margin:0 0 20px;padding:0;line-height:1.8}a{color:#f22f27;text-decoration:none}a:hover{color:#f55852;text-decoration:underline}a:focus{outline-offset:-2px}blockquote{font-size:1em;font-style:normal;padding:30px 38px;margin:0 0 15px;position:relative;line-height:1.8;text-indent:0;border:none;color:#888}blockquote:before{content:"“";left:12px;top:0;color:#E0E0E0;font-size:4em;font-family:Arial, serif;line-height:1em;font-weight:700;position:absolute}blockquote:after{content:"”";right:12px;bottom:-26px;color:#E0E0E0;font-size:4em;font-family:Arial, serif;line-height:1em;font-weight:700;position:absolute;bottom:-31px}strong, dfn{font-weight:700}em, dfn{font-style:italic;font-weight:400}del{text-decoration:line-through}pre{margin:0 0 10px;font-size:13px;line-height:1.42857;word-break:break-all;word-wrap:break-word;border-radius:4px;white-space:pre-wrap;display:block;background:#f8f8f8;padding:10px 20px;border:none;margin-bottom:25px;color:#666;font-family:Courier, sans-serif}code{color:#c7254e;background-color:#f9f2f4;border-radius:4px;font-family:Menlo, Monaco, Consolas, "Courier New", monospace;padding:2px 4px;font-size:90%}p>code{color:#c7264e;background-color:#f9f2f4;font-size:.95em;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}figure{margin:1em 0}figcaption{font-size:0.75em;padding:0.5em 2em;margin-bottom:2em}figure img{margin-bottom:0px}hr{border:0;height:1px;background:#333;background-image:linear-gradient(to right, #ccc, #333, #ccc)}ol p, ul p{margin-bottom:0px}li{margin-bottom:0.75em;margin-top:0.75em}ol#footnotes{font-size:0.95em;padding-top:1em;margin-top:1em;margin-left:0;border-top:1px solid #eaeaea;counter-reset:footer-counter;list-style:none;color:#555;padding-left:5%;margin:20px 0}ol#footnotes li{margin-bottom:10px;margin-left:16px;font-weight:400;line-height:2;list-style-type:none}ol#footnotes li:before{content:counter(footer-counter) ". ";counter-increment:footer-counter;font-weight:800;font-size:.95em}@keyframes highfade{0%{background-color:none}20%{background-color:yellow}100%{background-color:none}}@-webkit-keyframes highfade{0%{background-color:none}20%{background-color:yellow}100%{background-color:none}}a:target, ol#footnotes li:target, sup a:target{animation-name:highfade;animation-duration:2s;animation-iteration-count:1;animation-timing-function:ease-in-out;-webkit-animation-name:highfade;-webkit-animation-duration:2s;-webkit-animation-iteration-count:1;-webkit-animation-timing-function:ease-in-out}a:target{border:0;outline:0}animation-iteration-count:1;-webkit-animation-timing-function:ease-in-out}a:target{border:0;outline:0}tion-iteration-count:1;-webkit-animation-timing-function:ease-in-out}a:target{border:0;outline:0}
+</style>
+<div align="center">
+<h1><font  color="#ff7e79"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+</svg>
+每天一个技术点</font>
+</h1>
+</div>
+
+<HR>
+
+<h3>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+</svg>
+本文作者：XDbg（小吧唧）
+<br>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar2-event-fill" viewBox="0 0 16 16">
+  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zM11.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
+</svg>
+发布时间：2023年7月13日
+<br>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-fill" viewBox="0 0 16 16">
+  <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+</svg>
+内容概要：本文将会简单的介绍数据与指针的关系与安全问题，并通过 CheatEngine 这一工具对几个样本进行分析。
+
+</h3>
+
+## 数据与指针
+数据与指针的关系：指针是数据的载体，数据在指针上体现。
+看起来比较晦涩难懂，这不是一般的编程语言有的概念。
+
+大概的意思就是：指针是一个内存地址，而这个内存地址存放的就是我们的数据。
+
+通过下图，可以看到 0x457000 地址存储着一个数据 0x42BBCB14。（假设该数据长度为 4 字节）
+![](https://easyx-1314999863.cos.ap-nanjing.myqcloud.com/%E6%95%B0%E6%8D%AE%E4%B8%8E%E6%8C%87%E9%92%881.png)
+
+用 C 语言的表示如下
+``` c
+int* pHp = 0x457000;
+*pHp = 0x42BBCB14;
+
+注意 pHp 是一个指针变量并不是指针，&pHp 是它的指针。
+```
+
+在一个程序中，有大量的指针可能会被黑客利用，因为指针和数据的联系非常密切，接下来通过几个例子来演示。
+
+## 易语言花指令引擎的关键点定位
+样本：易语言5.9.2
+
+通过简单的搜索数据（花指令插入级别），我们拿到了 “e.exe+2734A8” 这个指针。
+
+因为我之前要做的测试是修改易语言的花指令引擎，所以这个数据对我来说不太重要，将样本扔到 IDA 中进行分析。
+![](https://easyx-1314999863.cos.ap-nanjing.myqcloud.com/%E6%95%B0%E6%8D%AE%E4%B8%8E%E6%8C%87%E9%92%882.png)
+
+通过 IDA 对指针 “e.exe+2734A8” 进行引用分析，简单的把几个 Call 过了一遍，打上符号。
+![](https://easyx-1314999863.cos.ap-nanjing.myqcloud.com/%E6%95%B0%E6%8D%AE%E4%B8%8E%E6%8C%87%E9%92%884.png)
+
+知道了花指令引擎生成花指令的 Call 要修改成自己的引擎那可就太简单了。
+![](https://easyx-1314999863.cos.ap-nanjing.myqcloud.com/%E6%95%B0%E6%8D%AE%E4%B8%8E%E6%8C%87%E9%92%883.png)
+
+具体的程序分析可以参考这篇随笔：
+[Diy-易语言花指令引擎与编译结果打乱码](https://easyx-1314999863.cos.ap-nanjing.myqcloud.com/Diy-%E6%98%93%E8%AF%AD%E8%A8%80%E8%8A%B1%E6%8C%87%E4%BB%A4%E5%BC%95%E6%93%8E%E4%B8%8E%E7%BC%96%E8%AF%91%E7%BB%93%E6%9E%9C%E6%89%93%E4%B9%B1%E7%A0%81.pdf)
+
+## 生死狙击人物指针
+样本：生死狙击
+
+有朋友说 Unity 游戏找不到指针，这个观点我是不认同的，有数据就有指针。当然，要写出一个 “找不到指针” 的程序也很简单，日后再提。
+
+尴尬，一下子就要到明天去了。就贴下之前的分析记录吧。
+
+1. 找到了人物的坐标
+2. 记录下堆栈 LOG
+3. 发现 call Contexts:get_sharedInstance
+4. 提取特征码，获取指针
+
+``` C#
+PlayerEntity
+
+SSJJBase.Obscure.Change:SetPos - 55 - push ebp
+
+
+Assets.Res.Assets.Scripts
+
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+8d - C7 85 44FFFFFF 00000000 - mov [ebp-000000BC],00000000 { 0 }
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+97 - E8 4CE925F5 - call UnityEngine.Camera:get_main
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+9c - 83 EC 08 - sub esp,08 { 8 }
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+9f - 6A 00 - push 00 { 0 }
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+a1 - 50 - push eax
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+a2 - E8 C92814DC - call UnityEngine.Object:op_Equality
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+a7 - 83 C4 10 - add esp,10 { 16 }
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+aa - 85 C0 - test eax,eax
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+ac - 0F85 8C060000 - jne Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+73e
+
+
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+ac - 0F85 8C060000 - jne Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+73e
+
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+b2 - E8 A93F21DC - call Contexts:get_sharedInstance
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+b7 - 8B C8 - mov ecx,eax //contexts
+
+Assets.Res.Assets.Scripts.BulletHoleEffect:UpdateScaleAndOrientatio+bb - 8B 40 20 - mov eax,[eax+20] //playerContext
+```
+
+这是部分测试代码，完整代码需要上驱动。
+1. 拿到 get_sharedInstance() 地址
+2. 通过一点点的指针读取操作，拿到 Contexts，即游戏上下文，存储了房间、人物、地理环境、背包、矩阵等一些没意思的东西
+``` C
+.版本 2
+
+内存搜索 (字节集_还原 (“55 8B EC 53 57 56 83 EC 1C 8B 7D 08 C7 45 F0 00 00 00 00 C6 45 E7 00 C6 45 E6 00 ”), 结果地址)
+
+get_sharedInstance_addr2 ＝ get_sharedInstance_addr ＋ 4 ＋ 读内存整数型 (get_sharedInstance_addr)
+get_sharedInstance_addr3 ＝ 读内存整数型 (get_sharedInstance_addr2 ＋ 6 ＋ 2)
+Contexts ＝ 读内存整数型 (get_sharedInstance_addr3)
+
+```
+
+## 某国产软件的VIPFlag
+样本：不知道鸭
+
+这个软件提供了一个退出账号、登录账号的接口。通过反复登录、退出，定位到关键数据地址：0x18E30C。
+![](https://easyx-1314999863.cos.ap-nanjing.myqcloud.com/%E6%95%B0%E6%8D%AE%E4%B8%8E%E6%8C%87%E9%92%886.png)
+使用 CheatEngine “寻找指针访问” 这一功能，成功定位到关键地址：0x042CBDD。
+程序的反汇编如图。（OllyDbg）
+![](https://easyx-1314999863.cos.ap-nanjing.myqcloud.com/%E6%95%B0%E6%8D%AE%E4%B8%8E%E6%8C%87%E9%92%885.png)
+
+程序逻辑很简单，使得内存注册机代码的编写也很简单。看的出来，程序的 VIP 判断流程没有得到高度重视。（有非常多的暗装，但因指针、数据过于简单，使其保护效果有限）
+``` CPP
+int vipFlag = getThis()->pVip;
+if(vipFlag == 2)
+{
+  // vip code
+}
+0042CBDD  MOV EAX,DWORD PTR DS:[<&Qt5Core.?self@QCoreApplication@@0PAV1@A>]
+0042CBE2  MOV EDI,DWORD PTR DS:[<&Qt5Core.?fromAscii_helper@QString@@CAPAU?$QTypedArrayData@G@@PBDH@Z>]    ; Qt5Core.?fromAscii_helper@QString@@CAPAU?$QTypedArrayData@G@@PBDH@Z
+0042CBE8  MOV EAX,DWORD PTR DS:[EAX]
+0042CBEA  CMP DWORD PTR DS:[EAX+0x18],0x2
+```
+
+## 总结下这些软件出现的问题
+这三个样本都对程序的控制流进行了一些保护（本文没有体现出来），但在数据和指针这方面上发生了忽视，这对于软件的安全会造成很大的影响。
+
+生死狙击这款游戏，虽然对人物的 XYZ 进行加密，但算法过于简单，只是简单的加减乘除，交给 GPT 编写逆运算代码，不过 1 秒钟。（可能是因为效率非常重要吧）
+
+这款游戏在指针这方面甚至没有做出保护，可能出现这一情况的原因和例 3 类似，直接使用了 Unity、QT 提供的 API。
+
+后续，将给大家演示，我的指针和数据是如何保护的。
